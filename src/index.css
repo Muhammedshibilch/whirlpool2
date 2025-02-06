@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  gap: 20px; /* Adds spacing between items */
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 150px; /* Prevents items from becoming too small */
+}
+
+.feature-item img {
+  width: 50px;
+  height: auto;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.separator {
+  width: 1px;
+  height: 50px;
+  background-color: #002855;
+}
+
+
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+
+}
+
+.custom-gap {
+  padding-right: 5px;
+}
+
+@media (max-width: 576px) { 
+  .custom-gap {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+@media (max-width: 768px) { 
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .separator {
+    display: none; 
+  }
+}
+
+#appointment {
+  background-image: url("https://www.whirlpool-handel.de/cdn/shop/files/Terminanfrage_1_2560x.png?v=1716811034");
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (min-width: 768px) {
+  #appointment {
+    height: 500px; /* Height for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  #appointment {
+    height: 600px; /* Height for larger screens */
+  }
+}
+
+
+
+#whirlpoolbg {
+  background-image: url("https://www.whirlpool-handel.de/cdn/shop/files/Artesian-Spa-Whirlpool.jpg?v=1702460966");
+  width: 100%;
+  height: 500px; /* Default height for larger screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) { /* Tablets and below */
+  #whirlpoolbg {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+  #whirlpoolbg {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) { /* Small mobile screens */
+  #whirlpoolbg {
+    height: 250px;
+  }
+
+}
+
+
+
+#swimspabg {
+  background-image: url("https://www.whirlpool-handel.de/cdn/shop/files/Kategorien_Banner_Webseite_1280_x_560_px.jpg?v=1707394560");
+  width: 100%;
+  height: 500px; /* Default height for larger screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 992px) { /* Tablets and below */
+ 
+  #swimspabg {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+ 
+  #swimspabg {
+    height: 300px;
+  }
+
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+ 
+  #swimspabg {
+    height: 300px;
+  }
+
+}
+
+
+#salebg {
+  background-image: url("https://www.whirlpool-handel.de/cdn/shop/files/Kilimanjaro.jpg?v=1679485174");
+  width: 100%;
+  height: 500px; /* Default height for larger screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 480px) { /* Small mobile screens */
+ 
+  #salebg{
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+  #salebg{
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) { /* Tablets and below */
+
+  #salebg{
+    height: 400px;
+  }
+}
+
+
+
+#cubepoolsbg {
+  background-image: url("https://www.whirlpool-handel.de/cdn/shop/files/21303.jpg?v=1714906871");
+  width: 100%;
+  height: 500px; /* Default height for larger screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 480px) { /* Small mobile screens */
+ 
+  #cubepoolsbg{
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+  #cubepoolsbg{
+    height: 300px;
+  }
+}
+
+@media (max-width: 992px) { /* Tablets and below */
+
+  #cubepoolsbg{
+    height: 400px;
+  }
+}
