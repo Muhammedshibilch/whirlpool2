@@ -1,10 +1,9 @@
-
 import React from 'react';
 import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardText,
-    MDBCardImage
+  MDBCard,
+  MDBCardBody,
+  MDBCardText,
+  MDBCardImage
 } from 'mdb-react-ui-kit';
 import EnquiryModal from './EnquiryModal';
 
@@ -82,7 +81,7 @@ function WhirlpoolCard() {
                 <p>Personen: {product.capacity}</p>
                 <h6 className="fw-bold">{product.price}</h6>
               </MDBCardText>
-              <EnquiryModal />
+              <EnquiryModal itemName={product.title} itemPrice={product.price} />
             </MDBCardBody>
           </MDBCard>
         </div>

@@ -202,8 +202,7 @@ const Header = () => {
       {/* Top Banner */}
       <div className="w-full bg-sky-800">
         <h6 className="text-center text-white font-bold py-2 text-sm md:text-base">
-          ARRANGE A CONSULTATION APPOINTMENT
-        </h6>
+        BERATUNGSTERMIN VEREINBAREN        </h6>
       </div>
 
       {/* Main Header */}
@@ -232,8 +231,8 @@ const Header = () => {
               <div className="flex items-center ml-3">
                 <FaPhoneAlt className="fs-2 text-lg md:text-xl" />
                 <div className="text-xs md:text-sm ml-2">
-                  <p className="text-gray-700">WE ARE HAPPY TO ADVERTISE YOU!</p>
-                  <p className="font-bold text-black" style={{float:'inline-end'}}>07306 9 57 90 60</p>
+                  <p className="text-gray-700">Wir beraten Sie gerne!</p>
+                  <p className="font-bold text-black" style={{float:'inline-end'}}>00000000000</p>
                 </div>
               </div>
             </div>
@@ -267,13 +266,14 @@ const Header = () => {
             <ul className="flex flex-col lg:flex-row lg:justify-center lg:items-center space-y-2 lg:space-y-0 lg:space-x-6">
               <li><Link to="/whirlpool" className="text-dark font-medium hover:text-blue-600">WHIRLPOOL</Link></li>
               <li><Link to="/swimspa" className="text-dark font-medium hover:text-blue-600">SWIMSPA</Link></li>
-              <li><Link to="/sale" className="text-dark font-medium hover:text-blue-600">SALE%</Link></li>
+              <li><Link to="/sale" className="text-dark font-medium hover:text-blue-600">ABVERKAUF%</Link></li>
               <li><Link to="/shop" className="text-dark font-medium hover:text-blue-600">SHOP</Link></li>
               <li><Link to="/spaframe" className="text-dark font-medium hover:text-blue-600">SPA FRAME</Link></li>
               <li><Link to="/cubepools" className="text-dark font-medium hover:text-blue-600">CUBE POOLS</Link></li>
               <li><Link to="/contact" className="text-dark font-medium hover:text-blue-600">SHOWROOMS/CONTACT</Link></li>
               <li><Link to="/service" className="text-dark font-medium hover:text-blue-600">SERVICE</Link></li>
-              <li><Link to="/counselor" className="text-dark font-medium hover:text-blue-600">COUNSELOR</Link></li>
+              <li><Link to="/counselor" className="text-dark font-medium hover:text-blue-600">
+               RATGEBER</Link></li>
             </ul>
           </div>
         </nav>

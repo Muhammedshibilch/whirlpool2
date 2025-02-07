@@ -79,8 +79,8 @@ const products = [
                 <h6 className="fw-bold">{product.price}</h6>
 
         </MDBCardText>
-        <EnquiryModal/>
-      </MDBCardBody>
+        <EnquiryModal itemName={product.title} itemPrice={product.price} />
+        </MDBCardBody>
     </MDBCard>
   </div>
     ))
