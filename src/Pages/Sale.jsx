@@ -1,6 +1,7 @@
 import React from 'react'
 import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
-import SaleCard from '../Components/SaleCard';
+import WhirlpoolCard from '../Components/WhirlpoolCard';
+import SwimCard from '../Components/SwimCard';
 
 function Sale() {
   return (
@@ -76,7 +77,9 @@ function Sale() {
 
 <div className="container">
   <div className="row">
-     <SaleCard/>
+     <WhirlpoolCard/>
+
+    <SwimCard/>
   </div>
 </div>
 
