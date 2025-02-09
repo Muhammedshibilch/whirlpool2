@@ -13,22 +13,22 @@ function SpaFrameCard() {
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/KopievonWebseitenbilder_1024x1024px_-2_340x.jpg?v=1682423567',
       title: 'Einbaurahmen A1 180-205cm',
-      price: 'Rs. 323,300.00'
+      price: '$323,300.00'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/KopievonWebseitenbilder_1024x1024px_-2_340x.jpg?v=1682423567',
       title: 'Einbaurahmen A2 206-225cm',
-      price: 'Rs. 341,800.00'
+      price: '$341,800.00'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/KopievonWebseitenbilder_1024x1024px_-2_340x.jpg?v=1682423567',
       title: 'Einbaurahmen A3 226-240cm',
-      price: 'Rs. 360,200.00'
+      price: '$360,200.00'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/KopievonWebseitenbilder_1024x1024px_-2_340x.jpg?v=1682423567',
       title: 'Einbaurahmen A4 Sondergröße',
-      price: 'Rs.00'
+      price: '$.00'
     },
   ];
 
