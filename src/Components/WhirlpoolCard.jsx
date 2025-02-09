@@ -15,56 +15,56 @@ function WhirlpoolCard() {
       title: 'Pluto Outdoor Whirlpool',
       dimensions: '200 × 200 × 89cm',
       capacity: 5,
-      price: '$601,700.00'
+      price: 'EUR 6,618.70'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/products/3_340x.jpg?v=1678656422',
       title: 'Jupiter "Plug and Play" Outdoor Whirlpool',
       dimensions: '200×200×87cm',
       capacity: 6,
-      price: '$601,800.00'
+      price: 'EUR 6,619.80'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/products/WebseitenbilderWellis_1024x1024px_340x.jpg?v=1678656843',
       title: 'Mars Plug and Play Outdoor Whirlpool',
       dimensions: '213×160×75cm',
       capacity: 3,
-      price: '$638,900.00'
+      price: 'EUR 7,028.90'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/Infinitas_Webseite1024x1024-5_340x.jpg?v=1729169808',
       title: 'Blueline 800 Outdoor Whirlpool',
       dimensions: '200×160×86cm',
       capacity: 3,
-      price: '$693,500.00'
+      price: 'EUR 7,628.50'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/Infinitas_Webseite1024x1024_340x.jpg?v=1729154779',
       title: 'Blueline 500 Outdoor Whirlpool',
       dimensions: '200×200×86cm',
       capacity: 5,
-      price: '$739,800.00'
+      price: 'EUR 8,137.80'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/WebseitenbilderWellis_1024x1024px_340x.jpg?v=1713681966',
       title: 'Firenze Life Outdoor Whirlpool',
       dimensions: '213×160×75cm',
       capacity: 3,
-      price: '$750,000.00'
+      price: 'EUR 8,250.00'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/1_b47d429c-bfdd-4e6b-9150-fd6f6e7bc552_340x.jpg?v=1701948109',
       title: 'Budapest Life Deluxe Outdoor Whirlpool',
       dimensions: '200 × 200 × 89cm',
       capacity: 5,
-      price: '$767,600.00 '
+      price: 'EUR 8,443.60'
     },
     {
       image: 'https://www.whirlpool-handel.de/cdn/shop/files/2_01e61e33-765a-40d5-96c7-59a58b546510_340x.jpg?v=1701948320',
       title: 'Prague Life Deluxe Outdoor Whirlpool',
       dimensions: '200 × 200 × 89cm',
       capacity: 6,
-      price: '$767,600.00 '
+      price: 'EUR 8,443.60'
     }
   ];
 
