@@ -40,7 +40,6 @@ function Footer() {
           <div>
             <h6 className="font-semibold uppercase">Wichtige Links</h6>
             <ul className="mt-2 space-y-1 text-gray-700">
-              <li>Impressum</li>
               <li>Datenschutzbestimmungen</li>
               <li>Widerrufsrecht</li>
               <li>Zahlung und Versand</li>
@@ -51,8 +50,7 @@ function Footer() {
           {/* Showroom Vöhringen */}
           <div>
             <h6 className="font-semibold uppercase">Showroom Vöhringen</h6>
-            <p className="mt-2">+49 7306 9579060</p>
-            <p className="text-gray-600">team@whirlpool-handel.de</p>
+            <p className="text-gray-600">info@handle-whirlpool.de</p>
             <p className="text-gray-600">Untere Hauptstraße 21</p>
             <p className="text-gray-600">89269 Vöhringen, Germany</p>
           </div>
@@ -60,8 +58,7 @@ function Footer() {
           {/* Showroom Roth */}
           <div>
             <h6 className="font-semibold uppercase">Showroom Roth</h6>
-            <p className="mt-2">+49 9129 2957220</p>
-            <p className="text-gray-600">team@whirlpool-handel.de</p>
+            <p className="text-gray-600">info@handle-whirlpool.de</p>
             <p className="text-gray-600">Lösmühle 2g</p>
             <p className="text-gray-600">91154 Roth, Germany</p>
           </div>
