@@ -21,8 +21,7 @@ function Contact() {
         WSG GmbH Showroom Roth <br />
         Ansprechpartner: Stefan Grabinger <br />
         Lösmühle 2g, 91154 Roth (Routenplaner) <br />
-        +49 91292957220 <br />
-        team@whirlpool-handel.de <br />
+        info@handle-whirlpool.de <br />
         Montag - Freitag 09:00 - 18:00 <br />
         Samstag 10:00 - 14:00 Uhr
       </p>
@@ -41,8 +40,7 @@ function Contact() {
         WSG GmbH Showroom Vöhringen <br />
         Ansprechpartner: Christian Winkler <br />
         Untere Hauptstr. 21, 89269 Vöhringen (Routenplaner) <br />
-        +49 7306 9579060 <br />
-        team@whirlpool-handel.de <br />
+        info@handle-whirlpool.de <br />
         Montag - Freitag 09:00 - 18:00 <br />
         Samstag 10:00 - 14:00 Uhr
       </p>
