@@ -229,10 +229,10 @@ const Header = () => {
                 alt="Avatar" 
               />
               <div className="flex items-center ml-3">
-                <FaPhoneAlt className="fs-2 text-lg md:text-xl" />
+                <FaEnvelope  className="fs-2 text-lg md:text-xl" />
                 <div className="text-xs md:text-sm ml-2">
                   <p className="text-gray-700">Wir beraten Sie gerne!</p>
-                  <p className="font-bold text-black" style={{float:'inline-end'}}>00000000000</p>
+                  <p className="font-bold text-black" style={{float:'inline-end'}}>info@handle-whirlpool.de</p>
                 </div>
               </div>
             </div>
